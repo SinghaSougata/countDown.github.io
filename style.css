@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(snow2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1{
+    font-size: 4rem;
+    margin-top: -10rem;
+    
+}
+.bigtext{
+    font-size: 4rem;
+    margin: 1rem 2rem;
+    line-height: 1;
+    font-weight: bold;
+
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.3rem;
+}
